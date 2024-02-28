@@ -6,11 +6,66 @@
     margin: opx;
 }
 
+:root {
+    --cor00: #10403B;
+    --cor01:#127369;
+    --cor02: #8AA6A3;
+    --cor03: #637371;
+    --cor04: #BFBFBF;
+}
+
 header {
     padding-top: 20px;
     border-radius: 10px;
-    background-color: turquoise;
-    color: crimson;
+    min-width: 400px;
+    border-color: black;
+    background-color: var(--cor01);
+    color: var(--cor04);
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 10px;   
+}
+
+header > h3 {
+    text-align: right;
+    padding-right: 10px;
+    color: var(--cor02);
+}
+
+article{
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    border-width: 3px;
+    border-color: var(--cor00);
+    border-radius: 10px;
+    border-style: solid;
+    color: var(--cor04);
+}
+
+article.Doces {
+    background-image: url(/Imagens/Doces.jpg);
+    
+    
+}
+
+article.Salgados {
+    background-image: url(/Imagens/Salgados.jpg);
+}
+
+article.Bolos {
+    background-image: url(/Imagens/Bolos.jpg);
+}
+
+article.Geleias {
+    background-image: url(/Imagens/Geleias.jpg);
+}
+
+a {
+    color: var(--cor04);
+}
+
+footer {
+    background-color: var(--cor00);
+    color: var(--cor04);
+    text-align: center;
 }
