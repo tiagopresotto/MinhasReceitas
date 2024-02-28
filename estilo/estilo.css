@@ -33,7 +33,7 @@ header > h3 {
 
 article{
     margin-top: 10px;
-    height: 300px;
+    height: 100px;
     width: 300px;
     border-width: 3px;
     border-color: var(--cor00);
