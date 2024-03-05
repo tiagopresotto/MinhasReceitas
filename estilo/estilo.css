@@ -28,7 +28,7 @@ header > h3 {
     padding-right: 10px;
     color: var(--cor02);
 }
-
+/*
 article{
     margin-top: 10px;
     height: 100px;
@@ -57,6 +57,7 @@ article.Bolos {
 article.Geleias {
     background-image: url(/Imagens/Geleias.jpg);
 }
+*/
 
 a {
     color: var(--cor04);
